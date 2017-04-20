@@ -1,4 +1,6 @@
-## Intro to the web
+# Intro to coding
+
+## The internet and the world wide web
 
 Learn more about the [web](http://marksheet.io/introduction.html).
 
