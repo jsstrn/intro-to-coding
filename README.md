@@ -10,6 +10,8 @@ The aim of this course is to give you a cursory introduction to
 
 ## The internet and the world wide web
 
+![internet](https://waiukuelearning.wikispaces.com/file/view/books-internet.gif/126751571/books-internet.gif)
+
 Learn more about the [web](http://marksheet.io/introduction.html).
 
 ## HTML basics
