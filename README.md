@@ -16,7 +16,7 @@ Learn more about the [web](http://marksheet.io/introduction.html).
 
 HTML stands for **H**yper**T**ext **M**arkup **L**anguage. Sounds fancy and it might even look intimidating, but we're going to see that HTML is nothing more than just plain text. Don't believe me? Let's prove it. 
 
-### It's just plain text
+### :computer: It's just plain text
 
 ![ice cream woes](https://s-media-cache-ak0.pinimg.com/736x/3f/18/f9/3f18f91a6b746bdaf1e11728a88f944c.jpg)
 
@@ -32,11 +32,11 @@ Welcome to my first web page.
 
 Now, open the file with your web browser.
 
-> 💡 Think about how we could format this so that the first paragraph is a heading.
+> :bulb: Think about how we could format this so that the first paragraph is a heading.
 
-* For Mac users, TextEdit will not allow you to save a file in `.txt` format by default. To do so, you'll have to change your default settings. Go to TextEdit preferences and select **plain text** under **Foramt**.
+\* For Mac users, TextEdit will not allow you to save a file in `.txt` format by default. To do so, you'll have to change your default settings. Go to TextEdit preferences and select **plain text** under **Foramt**.
 
-### Looking under the hood
+### :golf: Looking under the hood
 
 ![car mechanic cartoon](https://i.imgur.com/XVSzNmL.jpg)
 
