@@ -18,7 +18,7 @@ HTML stands for **H**yper**T**ext **M**arkup **L**anguage. Sounds fancy and it m
 
 ### It's just plain text
 
-![ice cream woes](https://s-media-cache-ak0.pinimg.com/736x/3f/18/f9/3f18f91a6b746bdaf1e11728a88f944c.jpg)
+![ice cream](https://s-media-cache-ak0.pinimg.com/originals/b8/7f/46/b87f462cdbe064a17e17022605cf0a98.jpg)
 
 > HTML is like plain vanilla ice cream
 
