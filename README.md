@@ -54,7 +54,7 @@ Learn more about [HTML](http://marksheet.io/html-basics.html)
 
 ## CSS basics
 
-![ghost fashion](https://b3.burst.zone/wp-content/uploads/2014/10/Ghost-Fashions-1-750x6271.png)
+![ghost fashion](http://www.digitalcitizen.life/sites/default/files/img/book_buildwebsite/buildwebsite_6.png)
 
 CSS is also not a programming language; it's just a set of rules that the browser uses to style its content.
 
