@@ -12,8 +12,11 @@ What you'll need for this course
 
 - a laptop with a decent Internet connection
 - a web browser (Chrome or Firefox)
+- TextEdit (Mac), Notepad (Windows), or some equivalent application
+- Pages (Mac), Word (Windows), LibreOffice (Linux), or some equivalent application
 - a Codepen account (you'll have to create one [here](https://codepen.io)
 - participate in the course (answer questions, ask questions, don't just watch; try out the activities)
+- a lot of the activities and questions in this course requires you to think, so don't look ahead at the answers
 
 ## The internet and the world wide web
 
@@ -33,6 +36,8 @@ HTML stands for **H**yper**T**ext **M**arkup **L**anguage. Sounds fancy and it m
 
 For this exercise you'll need to use TextEdit\* (Mac) or Notepad (Windows) to create a file, add the text you see below, and save it as `webpage.txt` on your Desktop.
 
+\* For Mac users, TextEdit will not allow you to save a file in `.txt` format by default. To do so, you'll have to change your default settings. Go to TextEdit preferences and select **plain text** under **Format**.
+
 ```txt
 This is my first web page
 
@@ -49,7 +54,7 @@ Let's now rename our `webpage.txt` file to `webpage.html`. Now let's open it aga
 
 Now all our paragraphs are combined. Looks like the web browser is unable to tell where one paragraph ends and where another begins. We need to help it out by giving it a special marking (or markup).
 
-Let's imagine you're tasked to create this sort of marking for each paragraph. What would yours look like? Remember, your markup has to indicate to the browser the start and end of a paragraph.
+> Let's imagine you're tasked to create this sort of marking for each paragraph. What would yours look like? Remember, your markup has to indicate to the browser the start and end of a paragraph.
 
 Here's what some students have come up with
 
@@ -57,9 +62,13 @@ Here's what some students have come up with
 - [p-start]This is my first paragraph[p-end]
 - #p$This is my first paragraph$p#
 
-> Think about how we could format this so that the first paragraph is a heading.
+Indeed, a paragraph in HTML is very similar to any of these suggestions. Here's what a paragraph element in HTML looks like
 
-\* For Mac users, TextEdit will not allow you to save a file in `.txt` format by default. To do so, you'll have to change your default settings. Go to TextEdit preferences and select **plain text** under **Format**.
+```html
+<p>This is my first paragraph</p>
+```
+
+> Think about how we could format this so that the first paragraph is a heading instead.
 
 ### Looking under the hood
 
