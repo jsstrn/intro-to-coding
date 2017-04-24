@@ -8,6 +8,8 @@ The aim of this course is to give you a cursory introduction to
 - the components of a web page (HTML, CSS, and JavaScript), and
 - to build your very own web page on [Codepen](https://codepen.io)
 
+Here's an [example](https://codepen.io/jsstrn/full/pPEeMr/) of what we'll be building.
+
 What you'll need for this course
 
 - a laptop with a decent Internet connection
@@ -74,6 +76,15 @@ Indeed, a paragraph in HTML is very similar to any of these suggestions. Here's 
 <p>This is my first paragraph</p>
 ```
 
+The paragraph element is made up of an opening tag `<p>` and a closing tag `</p>`.
+
+We can place attributes in the opening tag. Think of attributes as distinct properties of an HTML element. For instance, we might have two buttons with distinct styles (CSS) and behaviors (JavaScript).
+
+```
+<button class="buy-now-btn">Buy Now</button>
+<button class="cancel-btn">Cancel</button>
+```
+
 > Think about how we could format this so that the first paragraph is a heading instead.
 
 ### Looking under the hood
@@ -86,6 +97,16 @@ Locate the text "Intro to coding," it should look something like this
 
 ```html
 <h1>Intro to coding</h1>
+```
+
+### Inserting images
+
+Image tags are a little different. Since there is no text content that an image tag needs to wrap around there's no need for a closing tag i.e. `</img>`. The `src` attribute stands for source and the `alt` attribute refers to the alternative text describing the image.
+
+The source is the path or URL to the location of your image. Try looking under the hood of an image to see where its source is from.
+
+```
+<img src="kittens.jpg" alt="Here be kittens">
 ```
 
 Learn more about [HTML](http://marksheet.io/html-basics.html)
