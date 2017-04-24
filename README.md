@@ -13,6 +13,7 @@ What you'll need for this course
 - a laptop with a decent Internet connection
 - a web browser (Chrome or Firefox)
 - a Codepen account (you'll have to create one [here](https://codepen.io)
+- participate in the course (answer questions, ask questions, don't just watch; try out the activities)
 
 ## The internet and the world wide web
 
