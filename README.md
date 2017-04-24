@@ -24,7 +24,7 @@ HTML stands for **H**yper**T**ext **M**arkup **L**anguage. Sounds fancy and it m
 
 > HTML is like plain vanilla ice cream
 
-For this exercise you'll need to use Notepad (Windows) or TextEdit\* (Mac) to create a file, add the text you see below, and save it as `webpage.txt` on your Desktop.
+For this exercise you'll need to use TextEdit\* (Mac) or Notepad (Windows) to create a file, add the text you see below, and save it as `webpage.txt` on your Desktop.
 
 ```txt
 This is my first web page
@@ -36,23 +36,70 @@ Now, open the file with your web browser.
 
 > Think about how we could format this so that the first paragraph is a heading.
 
-\* For Mac users, TextEdit will not allow you to save a file in `.txt` format by default. To do so, you'll have to change your default settings. Go to TextEdit preferences and select **plain text** under **Foramt**.
+\* For Mac users, TextEdit will not allow you to save a file in `.txt` format by default. To do so, you'll have to change your default settings. Go to TextEdit preferences and select **plain text** under **Format**.
 
 ### Looking under the hood
 
 ![car mechanic cartoon](https://i.imgur.com/XVSzNmL.jpg)
 
-Let's look under the hood to see how this web page was built. Right click on this web page and select **Inspect** (some browsers might show **Inspect Element**). Locate the text "Intro to coding," it should look something like
+Let's look under the hood to see how this web page was built. Right click on this web page and select **Inspect** (some browsers might show **Inspect Element**).
+
+Locate the text "Intro to coding," it should look something like this
 
 ```html
 <h1>Intro to coding</h1>
 ```
 
-HTML is not a programming language; it's just plain text with a bit of markup.
-
 Learn more about [HTML](http://marksheet.io/html-basics.html)
 
 ## CSS basics
+
+Before we learn to style a heading on a web page with CSS, let's first look at how we would do it in Pages (Mac) or Word (Windows). We would type our heading, then select it, increase its font size and maybe even its font weight to bold.
+
+How does this look like in CSS? We could apply these rules to the paragraph element, but this would apply to all paragraph elements.
+
+```css
+p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+```
+
+A better way might be to uniquely identify that specific paragraph with the `id` attribute in your HTML element. That way we can access it using the `id` selector in CSS.
+
+In your HTML file, write:
+
+```html
+<p id="heading">Intro to coding</p>
+```
+
+In your CSS file, write:
+
+```css
+#heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+```
+
+You can also use the `class` attribute.
+
+In your HTML file, write:
+
+```html
+<p class="heading">Intro to coding</p>
+```
+
+In your CSS file, write:
+
+```css
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+```
+
+The difference is that `class` attributes are meant for styling a logical group of elements (e.g. a navigation bar or list items) while `id` attributes are meant for styling only that particular element. As such, it's more common to use `class` than `id` attributes.
 
 ![ghost fashion](http://www.digitalcitizen.life/sites/default/files/img/book_buildwebsite/buildwebsite_6.png)
 
