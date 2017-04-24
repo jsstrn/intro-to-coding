@@ -8,6 +8,12 @@ The aim of this course is to give you a cursory introduction to
 - the components of a web page (HTML, CSS, and JavaScript), and
 - to build your very own web page on [Codepen](https://codepen.io)
 
+What you'll need for this course
+
+- a laptop with a decent Internet connection
+- a web browser (Chrome or Firefox)
+- a Codepen account (you'll have to create one [here](https://codepen.io)
+
 ## The internet and the world wide web
 
 ![internet](https://waiukuelearning.wikispaces.com/file/view/books-internet.gif/126751571/books-internet.gif)
@@ -33,6 +39,22 @@ Welcome to my first web page.
 ```
 
 Now, open the file with your web browser.
+
+> Why don't we just use `.txt` files to create web pages?
+
+The reason why we don't use `.txt` files is that we are not able to format them. We need a way to format our `.txt` file so that its much easier to read. That's where HTML comes in - HTML is just plain text with a bit of markup.
+
+Let's now rename our `webpage.txt` file to `webpage.html`. Now let's open it again in our web browser.
+
+Now all our paragraphs are combined. Looks like the web browser is unable to tell where one paragraph ends and where another begins. We need to help it out by giving it a special marking (or markup).
+
+Let's imagine you're tasked to create this sort of marking for each paragraph. What would yours look like? Remember, your markup has to indicate to the browser the start and end of a paragraph.
+
+Here's what some students have come up with
+
+- [paragraph-start]This is my first paragraph[paragraph-end]
+- [p-start]This is my first paragraph[p-end]
+- #p$This is my first paragraph$p#
 
 > Think about how we could format this so that the first paragraph is a heading.
 
@@ -115,9 +137,9 @@ JavaScript is a programming language and it's the only one your web browser unde
 
 ## Learn beyond this workshop
 
-- [Dash](https://dash.generalassemb.ly/)
-
-If you prefer to take an in-person course, there's [Frontend Web Development](https://generalassemb.ly/education/front-end-web-development) and [Web Development Immersive](https://generalassemb.ly/education/web-development-immersive) offered at [General Assembly](https://generalassemb.ly/) that go into much greater depth.
+- [Dash](https://dash.generalassemb.ly/) - I would highly recommend this short course. You'll learn to create a portfolio web page in HTML and style in with CSS
+- [Frontend Web Development](https://generalassemb.ly/education/front-end-web-development) - a part-time in-person 10-week course, there's [FEWD](https://generalassemb.ly/education/front-end-web-development) and
+- [Web Development Immersive](https://generalassemb.ly/education/web-development-immersive) - a full-time in-person 12-week course offered at [General Assembly](https://generalassemb.ly/)
 
 ## About the instructor
 
