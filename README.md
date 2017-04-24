@@ -50,9 +50,13 @@ Now, open the file with your web browser.
 
 The reason why we don't use `.txt` files is that we are not able to format them. We need a way to format our `.txt` file so that its much easier to read. That's where HTML comes in - HTML is just plain text with a bit of markup.
 
+### Creating your first web page
+
 Let's now rename our `webpage.txt` file to `webpage.html`. Now let's open it again in our web browser.
 
-Now all our paragraphs are combined. Looks like the web browser is unable to tell where one paragraph ends and where another begins. We need to help it out by giving it a special marking (or markup).
+Wait! All our paragraphs are combined! Looks like the web browser is unable to tell where one paragraph ends and where another begins. We need to help it out by giving it a special marking (or markup).
+
+### Creating your own syntax
 
 > Let's imagine you're tasked to create this sort of marking for each paragraph. What would yours look like? Remember, your markup has to indicate to the browser the start and end of a paragraph.
 
@@ -61,6 +65,8 @@ Here's what some students have come up with
 - [paragraph-start]This is my first paragraph[paragraph-end]
 - [p-start]This is my first paragraph[p-end]
 - #p$This is my first paragraph$p#
+
+### HTML syntax
 
 Indeed, a paragraph in HTML is very similar to any of these suggestions. Here's what a paragraph element in HTML looks like
 
