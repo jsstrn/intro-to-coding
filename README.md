@@ -241,13 +241,13 @@ Just like there are numerous languages in the world, there are also numerous pro
 Type `1 + 1` in your browser console and hit `Enter`.
 
 ```
-> 1 + 1
+1 + 1
 ```
 
 A programming language is able to evaluate a mathematical expression and just like in mathematics you can also store these values in variables.
 
 ```
-> x = 1 + 1
+x = 1 + 1
 ```
 
 Now, if you ask the console to evaluate `x` it will return `2`.
@@ -256,7 +256,10 @@ If you're keen to learn JavaScript, head over to the next section where I provid
 
 ## Learning beyond this course
 
+- Go to meet ups - visit [WeBuildSG](http://webuild.sg) and [Meetup.com](http://meetup.com)
+- Join a [Dojo](http://dojo.study) study group
 - [Dash](https://dash.generalassemb.ly/) - I would highly recommend this short course. You'll learn to create a portfolio web page in HTML and style in with CSS
+- [freeCodeCamp](https://www.freecodecamp.com/) - freeCodeCamp is a free online learning resource for web development
 - [Frontend Web Development](https://generalassemb.ly/education/front-end-web-development) - a part-time in-person 10-week course, there's [FEWD](https://generalassemb.ly/education/front-end-web-development) and
 - [Web Development Immersive](https://generalassemb.ly/education/web-development-immersive) - a full-time in-person 12-week course offered at [General Assembly](https://generalassemb.ly/)
 
