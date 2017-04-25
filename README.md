@@ -8,8 +8,6 @@ The aim of this course is to give you a cursory introduction to
 - the components of a web page (HTML, CSS, and JavaScript), and
 - to build your very own web page on [Codepen](https://codepen.io)
 
-Here's an [example](https://codepen.io/jsstrn/full/pPEeMr/) of what we'll be building.
-
 What you'll need for this course
 
 - a laptop with a decent Internet connection
@@ -19,6 +17,8 @@ What you'll need for this course
 - a Codepen account (you'll have to create one [here](https://codepen.io)
 - participate in the course (answer questions, ask questions, don't just watch; try out the activities)
 - a lot of the activities and questions in this course requires you to think, so don't look ahead at the answers
+
+We'll be building a simple web page in Codepen as we work through the content of this course. Here's an [example](https://codepen.io/jsstrn/full/pPEeMr/).
 
 ## The internet and the world wide web
 
@@ -76,6 +76,8 @@ Indeed, a paragraph in HTML is very similar to any of these suggestions. Here's 
 <p>This is my first paragraph</p>
 ```
 
+> Think about how we could format this so that the first paragraph is a heading instead.
+
 The paragraph element is made up of an opening tag `<p>` and a closing tag `</p>`.
 
 We can place attributes in the opening tag. Think of attributes as distinct properties of an HTML element. For instance, we might have two buttons with distinct styles (CSS) and behaviors (JavaScript).
@@ -84,8 +86,6 @@ We can place attributes in the opening tag. Think of attributes as distinct prop
 <button class="buy-now-btn">Buy Now</button>
 <button class="cancel-btn">Cancel</button>
 ```
-
-> Think about how we could format this so that the first paragraph is a heading instead.
 
 ### Looking under the hood
 
@@ -99,6 +99,29 @@ Locate the text "Intro to coding," it should look something like this
 <h1>Intro to coding</h1>
 ```
 
+### Structure of an HTML document
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page title</title>
+  </head>
+  <body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph</p>
+    <p>This is another paragraph</p>
+  </body>
+</html>
+```
+
+The HTML code above can be represented in the image seen below.
+
+![](https://kumarsher45.files.wordpress.com/2015/01/html-5-page-structure.jpg)
+
+The `root` element is `<html>` and it only has two children, `<head>` and `<body>`. Only elements in `<body>` are displayed in the browser. Also notice that child elements are indented to make it easier to read (we say these elements are nested).
+
 ### Inserting images
 
 Image tags are a little different. Since there is no text content that an image tag needs to wrap around there's no need for a closing tag i.e. `</img>`. The `src` attribute stands for source and the `alt` attribute refers to the alternative text describing the image.
@@ -109,9 +132,37 @@ The source is the path or URL to the location of your image. Try looking under t
 <img src="kittens.jpg" alt="Here be kittens">
 ```
 
+We'll be using images from [Pexel](https://www.pexels.com/) when building our web page later.
+
 Learn more about [HTML](http://marksheet.io/html-basics.html)
 
+### Links
+
+Here's how we would create a link to an internal web page within your website.
+
+```
+<p>Go to <a href="another-page.html">my other page</a>.</p>
+```
+
+Here's how we would create a link to an external website.
+
+```
+<p>Go to <a href="https://duckduckgo.com">DuckDuckGo</a>.</p>
+```
+
 ## CSS basics
+
+A CSS rule comprises of a selector and its declaration block (that's what's inside the curly braces). A declaration block contains the properties and the values you want to set.
+
+```css
+selector {
+  property: value
+}
+```
+
+CSS is also not a programming language; it's just a set of rules that the browser uses to style its content.
+
+## Heading out with style
 
 Before we learn to style a heading on a web page with CSS, let's first look at how we would do it in Pages (Mac) or Word (Windows). We would type our heading, then select it, increase its font size and maybe even its font weight to bold.
 
@@ -160,19 +211,39 @@ In your CSS file, write:
 
 The difference is that `class` attributes are meant for styling a logical group of elements (e.g. a navigation bar or list items) while `id` attributes are meant for styling only that particular element. As such, it's more common to use `class` than `id` attributes.
 
-![ghost fashion](http://www.digitalcitizen.life/sites/default/files/img/book_buildwebsite/buildwebsite_6.png)
+In fact, there is a heading tag in HTML that we can use `<h1>`, `<h2>`, ..., `<h6>`. That would be better than using the `<p>` for headings.
 
-CSS is also not a programming language; it's just a set of rules that the browser uses to style its content.
+![ghost fashion](http://www.digitalcitizen.life/sites/default/files/img/book_buildwebsite/buildwebsite_6.png)
 
 Learn more about [CSS](http://marksheet.io/css-basics.html)
 
 ## JavaScript basics
 
-JavaScript is a programming language and it's the only one your web browser understands. Just like there are numerous languages in the world, there are also numerous programming languages out there. You might have heard of programming languages such as Python, Ruby, Java\*, or even C++, but only JavaScript can be interpreted by the browser. 
+It is beyond the scope of this course to cover JavaScript, but do realize that JavaScript is an important part in web development. The only programming language that browsers can understand is JavaScript, so if you want to build interactive websites you'll typically need to use JavaScript to do so. 
 
-\* JavaScript is not Java. They are both programming languages, but they are entirely different and completely unrelated. Remeber, Java is to JavaScript as car is to carpenter. 
+Just like there are numerous languages in the world, there are also numerous programming languages out there. You might have heard of programming languages such as Python, Ruby, Java\*, or even C++, but only JavaScript can be interpreted by the browser.
 
-## Learn beyond this workshop
+\* **JavaScript is not Java**. They are both programming languages, but they are entirely different and completely unrelated. Remeber, Java is to JavaScript as car is to carpenter. 
+
+### Math 101
+
+Type `1 + 1` in your browser console and hit `Enter`.
+
+```
+> 1 + 1
+```
+
+A programming language is able to evaluate a mathematical expression and just like in mathematics you can also store these values in variables.
+
+```
+> x = 1 + 1
+```
+
+Now, if you ask the console to evaluate `x` it will return `2`.
+
+If you're keen to learn JavaScript, head over to the next section where I provide some online learning resources to go beyond this course.
+
+## Learning beyond this course
 
 - [Dash](https://dash.generalassemb.ly/) - I would highly recommend this short course. You'll learn to create a portfolio web page in HTML and style in with CSS
 - [Frontend Web Development](https://generalassemb.ly/education/front-end-web-development) - a part-time in-person 10-week course, there's [FEWD](https://generalassemb.ly/education/front-end-web-development) and
