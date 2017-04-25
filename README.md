@@ -20,9 +20,20 @@ What you'll need for this course
 
 We'll be building a simple web page in Codepen as we work through the content of this course. Here's an [example](https://codepen.io/jsstrn/full/pPEeMr/).
 
-## The internet and the world wide web
+## The Internet and the Web
 
 ![internet](https://waiukuelearning.wikispaces.com/file/view/books-internet.gif/126751571/books-internet.gif)
+
+The Internet is a interconnected network of computers which communicate through protocols. A subset of the Internet is the Web which uses the `HTTP` and `HTTPS` protocols to communicate.
+
+### Clients and servers
+
+Very briefly, a connection between computers on the web can be divided into two camps
+
+- Clients want information. They make requests to servers for information
+- Servers have information. They respond to client requests with information
+
+Clients include your web browser (Firefox), email client (Outlook), a messaging app (Telegram).
 
 Learn more about the [web](http://marksheet.io/introduction.html).
 
